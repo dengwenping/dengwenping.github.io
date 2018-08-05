@@ -1,0 +1,34 @@
+---
+title: "Protein structure"
+author: "Wenping Deng"
+date: "8/5/2018"
+output: html_document
+---
+#1 protein's primary structure
+
+protein's primary structure means the arrangement of aminio acids.
+
+Amino acids have the following format:
+
+![](pic/amino_acid.png){width= 50%}
+
+different residual R correspond to different amino acid, the reaction between two amino acid forms a peptide. the peptide bond has partial double bonds property, which can not rotate freely. (the adjacent $C_/alpha$ forms a plane,which can rotate)
+
+![](pic/peptide.png){width= 60%}
+
+there are 20 amino acids
+![](pic/20_amino.png){width= 60%}
+
+#2 protein's secondary structure
+
+protein's secondary structure means we ignore the stucture of side chain, only consider some local structure of the backbone. the hydragen bond beteen amino group and carboxyle group. there are alpha_helix, beta_sheet and loops
+
+![](pic/alpha_heli.png){width= 60%}
+# protein's tertiary and quarternary structure
+protein's tertiary structure mens the full 3D structure of a protein.protein's quarternary structure means the overall structure of multiple proteins. 
+
+**In summery, the structure of protein changes in respond to the change of environment**
+
+
+
+
