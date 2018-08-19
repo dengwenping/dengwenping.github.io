@@ -1,0 +1,21 @@
+---
+title: "Predicting_DAAS.html"
+author: "Wenping Deng"
+date: "8/18/2018"
+output: html_document
+---
+
+#Abstract:
+
+This paper developed a tool called SIFT (sort intolerant from tolerant substitutions), which use the sequence homology to predict whether a missense substitution affects protein function. Results shows a higher proportion of substitutions predicted to be deleterious by SIFT gives an affected phenotype than substitutions predicted to be deleterious by substitution scoring matrix.
+
+#introduction
+
+##1 
+Disease-causing mutations tend to occur in structurally and functionally important sites. Prdicting substitutions at these sites as deleterious or neutral may help identify disease associated alleles. A research using BLOSUM62 to classify an amino acid substitution by a SNP in coding area as conservative or nonconservative is inappropriate because it does not incorportate information specific to the protein.
+
+##2
+
+(why BLOSUM62 is inappropriate?) BLOSUM62 matrix is intended for database search and pairwise alignment. The matrix scores are calculated from the log odds ratio of aligned amino acids frequency and the background frequencies of amino acids. In BLOSUM62, 14 out of the 19 possible substitutions for a given amino acid have negative scores, this will overestimate the deleterious substitutions. On the other hand, for the positive scores, there is an understimation of deleterious substitution because of the position-specific information. Therefore, the accuracy for prediction the phenotype that results from an amino acid substitution based on sequence alignment of protein family members should be better than using a generalized substitution scoreing matrix.
+
+#mehtod
